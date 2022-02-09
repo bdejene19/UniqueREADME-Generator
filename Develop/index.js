@@ -45,7 +45,7 @@ function init() {
         }, {
             type: 'input',
             message: questions[6],
-            name: 'email',
+            name: 'portfolioLink',
         },
     ]).then((data, err) => {
         if (err) {

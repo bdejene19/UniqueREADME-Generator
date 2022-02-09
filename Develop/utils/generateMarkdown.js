@@ -51,7 +51,7 @@ function generateMarkdown(data) {
   ${renderOrderList(data.test_instructions)}\n
   ## Questions\n
   * Email: ${data.email}\n
-  * Portfolio: https://bdejene19.github.io/updatedPortfolio/ 
+  * Portfolio: ${data.portfolioLink}\n 
 
   ${renderLicenseSection('hello')}
   ${renderLicenseBadge()}
