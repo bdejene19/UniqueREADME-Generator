@@ -21,6 +21,15 @@ function renderLicenseSection(license) {
   return `### Licenses: \n${license}`
 }
 
+function renderOrderList(installStr) {
+  let tempArr = installStr.split('/');
+  let bulletStrs = '';
+  tempArr.forEach(item => {
+    bulletStrs += `<li>${item}</li>`
+  })
+  return bulletStrs;
+}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.project_title} \n
@@ -32,13 +41,17 @@ function generateMarkdown(data) {
   * ${data.questions}
 
   ## Description\n${data.description}\n
-  ## Installation Instructions\n${data.install_instructions}\n
+  ## Installation Instructions\n
+  <ol>
+    ${renderOrderList(data.install_instructions)}
+  </ol>\n
   ## Usage Info\n${data.usage_info}\n
-  ## Contribution Guidecolines\n${data.description}\n
-  ## Test Instructions\n${data.test_instructions}\n
+  ## Contribution Guidelines\n${data.description}\n
+  ## Test Instructions\n
+  ${renderOrderList(data.test_instructions)}\n
   ## Questions\n
-  * email: bdejene19@gmail.com
-  * portfolio: https://bdejene19.github.io/updatedPortfolio/ 
+  * Email: ${data.email}\n
+  * Portfolio: https://bdejene19.github.io/updatedPortfolio/ 
 
   ${renderLicenseSection('hello')}
   ${renderLicenseBadge()}
