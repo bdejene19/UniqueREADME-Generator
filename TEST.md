@@ -1,35 +1,40 @@
-# test3 
+# Bemnet 
 
   ## Table of Contents:
 
-  * <a href='## Description'>local descrirp</a>
+  * <a href='## Description'>moves it</a>
 
-  * how to
+  * like/1/2/3
 
-  * nodal
+  * go
 
-  * guide
+  * 7/8/9
 
   * undefined
 
   ## Description
-local descrirp
+moves it
 
   ## Installation Instructions
-how to
+
+  <ol>
+    <li>like</li><li>1</li><li>2</li><li>3</li>
+  </ol>
 
   ## Usage Info
-nodal
+go
 
-  ## Contribution Guidecolines
-local descrirp
+  ## Contribution Guidelines
+moves it
 
   ## Test Instructions
-guide
+
+  <li>7</li><li>8</li><li>9</li>
 
   ## Questions
 
   * email: bdejene19@gmail.com
+
   * portfolio: https://bdejene19.github.io/updatedPortfolio/ 
 
   ### Licenses: 
