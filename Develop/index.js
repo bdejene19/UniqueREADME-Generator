@@ -3,7 +3,7 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
-const questions = ['Project title:', 'Description:', 'Installation Instructions (separate steps by "/"):', 'Usage Information:', 'Contribution Guidelines:', 'Test Instructions:', "Questions:"];
+const questions = ['Project title:', 'Description:', 'Installation Instructions (separate steps by "/"):', 'Usage Information:', 'Contribution Guidelines:', 'Test Instructions (separate steps using "/"):', "Email:", "Portfolio Link:"];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
@@ -41,11 +41,11 @@ function init() {
         }, {
             type: 'input',
             message: questions[6],
-            name: 'Questions',
+            name: 'email',
         }, {
             type: 'input',
             message: questions[6],
-            name: ('one two d')
+            name: 'email',
         },
     ]).then((data, err) => {
         if (err) {
@@ -55,7 +55,6 @@ function init() {
             writeToFile('test', mdData);
             console.table(data);
         }
-    }).then(compensate => {
     })
 }
 
