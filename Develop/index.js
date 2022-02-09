@@ -45,7 +45,7 @@ function init() {
         }, {
             type: 'input',
             message: questions[6],
-            name: 'this should be my text',
+            name: ('one two d')
         },
     ]).then((data, err) => {
         if (err) {
@@ -54,8 +54,8 @@ function init() {
             let mdData = generateMarkdown(data)
             writeToFile('test', mdData);
             console.table(data);
-            console.log('table was his namo' + "diagnol texture was his blind spot section")
         }
+    }).then(compensate => {
     })
 }
 
