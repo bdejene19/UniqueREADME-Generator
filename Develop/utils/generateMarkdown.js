@@ -45,7 +45,7 @@ function renderOrderList(installStr) {
   let tempArr = installStr.split('/');
   let bulletStrs = '';
   tempArr.forEach(item => {
-    bulletStrs += `<pre>${item}</pre>\n`
+    bulletStrs += `\n<pre>${item}</pre>\n`
   })
   return bulletStrs;
 }
@@ -66,13 +66,13 @@ function generateMarkdown(data) {
     ${renderOrderList(data.install_instructions)}\n
   ## Usage Info\n${data.usage_info}\n
   ${renderLicenseSection(data)}\n
-  ## Contribution Guidelines\n${data.description}\n
+  ## Contribution Guidelines\n${data.contrib_guidelines}\n
   ## Test Instructions\n
   ${renderOrderList(data.test_instructions)}\n
   ## Questions\n
   * Github: ${data.github}\n
   * Email: ${data.email}\n
-  * Portfolio: ${data.portfolioLink}\n 
+  * [Portfolio](${data.portfolioLink})\n 
   
 
   
