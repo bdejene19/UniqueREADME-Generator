@@ -3,7 +3,7 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
-const questions = ['Project title:', 'Description:', 'Installation Instructions (separate steps by "/"):', 'Usage Information:', 'Contribution Guidelines:', 'Test Instructions (separate steps using "/"):', "Email:", "Portfolio Link:"];
+const questions = ['Project title:', 'Description:', "Email:", "Github Username:",  "Portfolio Link:", 'Installation Instructions (separate steps by "/"):', 'Usage Information:', 'Contribution Guidelines:', 'Test Instructions (separate steps using "/"):', "License:", 'License Link:'];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
@@ -25,28 +25,40 @@ function init() {
         },  {
             type: 'input',
             message: questions[2],
-            name: 'install_instructions',
-        }, {
-            type: 'input',
-            message: questions[3],
-            name: 'usage_info',
-        }, {
-            type: 'input',
-            message: questions[4],
-            name: 'contrib_guidelines',
-        }, {
-            type: 'input',
-            message: questions[5],
-            name: 'test_instructions',
-        }, {
-            type: 'input',
-            message: questions[6],
             name: 'email',
         }, {
             type: 'input',
-            message: questions[6],
+            message: questions[3],
+            name: 'github',
+        }, {
+            type: 'input',
+            message: questions[4],
             name: 'portfolioLink',
-        },
+        }, {
+            type: 'input',
+            message: questions[5],
+            name: 'install_instructions',
+        }, {
+            type: 'input',
+            message: questions[6],
+            name: 'usage_info',
+        }, {
+            type: 'input',
+            message: questions[7],
+            name: 'contrib_guidelines',
+        }, {
+            type: 'input',
+            message: questions[8],
+            name: 'test_instructions',
+        }, {
+            type: 'input',
+            message: questions[9],
+            name: 'licenses'
+        }, {
+            type: 'input',
+            message: questions[10],
+            name: 'licenseLinks'
+        }
     ]).then((data, err) => {
         if (err) {
             console.log('my error message: ')
