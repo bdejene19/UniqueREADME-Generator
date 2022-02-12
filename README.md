@@ -17,7 +17,7 @@
   A command-line application that develops a personalized readme file based on user input criteria. Questions asked to the user fill in sections such as Project Title, Description, installation instructions and more. Using a modularized approach, future changes are easy to implement
 
   ## Command-line Application Walk-Through 
-  /Users/Bemnet/Documents/BootcampClassWork/09-NodeJS/02-Homework/Develop/assets/imgs/WalkthroughExample.mov
+  <video src='/Users/Bemnet/Documents/BootcampClassWork/09-NodeJS/02-Homework/Develop/assets/imgs/WalkthroughExample.mov' alt='video not working'/>
 <!--   <video src='./Develop/assets/imgs/WalkthroughExample.mov' alt='walkthrough of readme generator on the command line' width='650px' autoplay loop></video> -->
   ## Installation Instructions
 
