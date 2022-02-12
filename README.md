@@ -17,8 +17,7 @@
   A command-line application that develops a personalized readme file based on user input criteria. Questions asked to the user fill in sections such as Project Title, Description, installation instructions and more. Using a modularized approach, future changes are easy to implement
 
   ## Command-line Application Walk-Through 
-<video src='./Develop/assets/imgs/WalkthroughExample.mov' alt='walkthrough of readme generator on the command line' width='650px' autoplay loop></video>
-![Showing a trailer of command line program](./Develop/assets/imgs/WalkthroughExample.mov)
+<video src='./Develop/assets/imgs/WalkthroughExample.mov' alt='walkthrough of readme generator on the command line' autoplay loop></video>
   ## Installation Instructions
 
     
