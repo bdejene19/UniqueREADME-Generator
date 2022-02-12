@@ -18,6 +18,7 @@
 
   ## Command-line Application Walk-Through 
 <video src='./Develop/assets/imgs/WalkthroughExample.mov' alt='walkthrough of readme generator on the command line' width='650px' autoplay loop></video>
+![Showing a trailer of command line program](./Develop/assets/imgs/WalkthroughExample.mov)
   ## Installation Instructions
 
     
