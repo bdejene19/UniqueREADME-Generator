@@ -20,9 +20,7 @@
 
 ![tweaked something here](https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/edit)
 Something should be playing above
-
-<video src="https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/view" style="width: 650px; height: 600px" alt="walkthrough of readme generator on the command line" autoplay loop></video>
-
+<iframe src="https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/preview" width="640" height="480" allow="autoplay"></iframe>
 
 
 
