@@ -18,7 +18,7 @@
 
   ## Command-line Application Walk-Through 
 
-<video src="https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/edit" width="650px" height="600px" alt="walkthrough of readme generator on the command line" autoplay loop></video>
+![rithe something here](https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/edit)
 
 <video src=https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/view width="650px" height="600px" alt="walkthrough of readme generator on the command line" autoplay loop></video>
 
