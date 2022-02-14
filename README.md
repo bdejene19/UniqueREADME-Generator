@@ -20,10 +20,10 @@
 
 ![rithe something here](https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/view)
 
-<video src="https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/view" width="650px" height="600px" alt="walkthrough of readme generator on the command line" autoplay loop></video>
+<video src="https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/view" alt="walkthrough of readme generator on the command line" style="width: 550px; height: 500px" autoplay loop></video>
 
-<video src=https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/view width="650px" height="600px" alt="walkthrough of readme generator on the command line" autoplay loop></video>
-
+<!-- <video src=https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/view width="650px" height="600px" alt="walkthrough of readme generator on the command line" autoplay loop></video>
+ -->
 
 
 
