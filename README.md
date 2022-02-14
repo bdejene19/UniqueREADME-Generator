@@ -18,12 +18,11 @@
 
   ## Command-line Application Walk-Through 
 
-![tweaked something here](./Develop/assets/imgs/WalkthroughExample.mov)
+![tweaked something here](https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/edit)
+Something should be playing above
 
-<video src="https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/view" alt="walkthrough of readme generator on the command line" style="width: 550px; height: 500px" autoplay loop></video>
+<video src="https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/view" style="width: 650px; height: 600px" alt="walkthrough of readme generator on the command line" autoplay loop></video>
 
-<!-- <video src=https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/view width="650px" height="600px" alt="walkthrough of readme generator on the command line" autoplay loop></video>
- -->
 
 
 
