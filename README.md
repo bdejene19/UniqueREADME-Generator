@@ -20,9 +20,9 @@
 
 ![tweaked something here](https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/edit)
 Something should be playing above
-<video src="https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/preview" width="640" height="480" allow="autoplay"></video>
+<video src="https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/preview" width="640" height="480" autoplay allowfullscreen loop></video>
 
-<video src="https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/preview" style="width: 600; height: 500"allow="autoplay"></video>
+<video src="https://drive.google.com/file/d/1H2jIGikta66mgiPwZZvmsA0t_lmCsLnj/preview" style="width: 600; height: 500" autoplay allowfullscreen loop></video>
 
 
   ## Installation Instructions
